@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.ccbox{
+    position: relative;
+}
+.ffl{
+    position: absolute;
+    font-size: 24px;
+    top: 50px;
+    left: 140px;
+}
+.ccbox div{
+    position: absolute;
+    width: 131px;
+    height: 27px;
+    background: black;
+    font-family: Roboto-Black;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    top: 48px;
+    left:180px;
+    line-height: 27px;
+}
+
+.area{
+    position: relative;
+    top: 150px;
+}
+.onebox{
+    width: 240px;
+    height: 200px;
+    background: #50E3C2;
+    position: absolute;
+    left: 100px;
+}
+.onebox p{
+    transform: rotate(-270deg);
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-weight: 900;    
+}
+.onebox .top{
+    transform: rotate(-180deg);
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 900;
+    position: absolute;
+    left: 60px;
+    top: 450px;
+}
+.photo{
+    width: 720px;
+    height: 400px;
+    overflow:hidden;
+    position: relative;
+    position: absolute;
+    left: 160px;
+    top: 50px;
+}
+.photo img{    
+    image-rendering: crisp-edges;  
+    -ms-interpolation-mode: nearest-neighbor;  
+    position: absolute;
+    top: -300px;
+    width: 720px;
+}
+.onebox2{
+    width: 440px;
+    height: 160px;
+    border: 20px solid #50E3C2;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+    z-index: -1;
+}
+.onebox2 .vintage{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    font-weight: 900;
+    position: absolute;
+    top: -320px;
+    left: 195px;
+}
+.onebox2 .denim{
+    transform: rotate(-270deg);
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    position: absolute;
+    top: -215px;
+    left: 360px;
+    font-weight: 900;
+
+}
+
+
+.area2{
+    position: relative;
+    top: 800px;
+    left: 100px;
+}
+.details{
+    transform: rotate(-270deg);
+    font-family: Roboto-BoldItalic;
+    font-size: 24px;
+    color: #000000;
+    line-height: 36px;
+    position: absolute;
+    top: 100px;
+    left: -40px;
+    font-style: italic;
+    font-weight: 900;
+}
+.area2 h1{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    font-weight: 900;
+    position: absolute;
+    left: 170px;
+}
+.kogi{
+    font-family: Roboto-Black;
+    font-size: 24px;
+    color: #000000;
+    line-height: 36px;
+    position: absolute;
+    left: 170px;
+    top: 50px;
+    font-weight: 900;
+}
+.area2 div{
+    width: 600px;
+    height: 300px;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    position: absolute;
+    left: 170px;
+    top: 100px;
+}
+
+
+.area3{
+    position: relative;
+    top: 1300px;
+    left: 100px;
+}
+.photo2{
+    width: 359px;
+    height: 300px;
+    position: absolute;
+    left: 60px;
+    z-index: 2;
+}
+.photo2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.twobox{
+    width: 440px;
+    height: 160px;
+    border: 20px solid #50E3C2;
+    position: absolute;
+    z-index: -1;
+    top: 150px;
+}
+.twobox2{
+    width: 240px;
+    height: 200px;
+    background: #50E3C2;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+.photo3{
+    width: 480px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    z-index: 1;
+}
+.photo3 img{    
+    image-rendering: crisp-edges;  
+    -ms-interpolation-mode: nearest-neighbor;  
+    position: absolute;
+    top: -160px;
+    width: 480px;
+    z-index: 1;
+}
+.twobox3{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    top: 550px;
+    left: 130px;
+    z-index: 3;
+    transform: rotate(180deg)
+}
+.twobox4{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    top: 550px;
+    left: 230px;
+    z-index: 3;
+    transform: rotate(180deg)
+}

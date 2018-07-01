@@ -1,0 +1,590 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.wrap{
+    width: 960px;
+    margin:0 auto;
+}
+
+.ccc{
+    font-family: Roboto-Black;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 131px;
+    height: 27px;
+    background: black;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 27px;
+}
+
+.men{
+    width: 419px;
+    height: 85px;
+    font-family: Roboto-Black;
+    font-size: 72px;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.left{
+    position: relative;
+    width:45%;
+    float: left;	
+}
+
+.linen{
+    position: absolute;
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    top: -15px;
+}
+.linen p{
+    text-shadow:  0em -0.3em  rgba(0,0,0,0.30),
+        0 -0.4em  rgba(0,0,0,0.10);
+    
+}
+
+.box{
+    position: absolute ;
+    width: 200px;
+    height: 160px;
+    border: 20px solid #50E3C2;
+    left: 300px;
+    top: -60px;   
+    z-index: -1;
+}
+
+.photo{            
+    width: 480px;
+    height: 400px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.photo .fit{
+    writing-mode: tb-rl;
+	position: absolute;
+	right: -70px;
+	bottom: 35px;
+	font-size: 20px;
+}
+.one{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    width: 56px;
+    height: 48px;
+    font-weight: 900;
+}
+.box2{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    top: 340px;
+    left:  60px;
+}
+.box3{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    top: 340px;
+    left:  110px;
+}
+.box3{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    top: 340px;
+    left:  160px;
+}
+
+
+.right{
+    position: relative;
+    float: right;
+}
+.two{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    width: 56px;
+    height: 48px;
+    position: absolute;
+    right: 0;
+    font-weight: 900;
+}
+.photo2{
+    width: 240px;
+    height: 200px;  
+    
+}
+.photo2 p{
+    transform: rotate(-360deg);
+    font-family: Roboto-BoldItalic;
+    font-size: 24px;
+    color: #000000;   
+    position: absolute;
+    top: 75px;
+    left: -140px;
+}
+.photo2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    left: -120px;
+}
+.twobox{
+    width: 200px;
+    height: 160px;
+    background: #50E3C2;
+    border: 20px solid #50E3C2;
+    position: absolute;
+    z-index: -1;
+    top: 60px;
+    left: -70px;
+}
+.twobox2{
+    width: 200px;
+    height: 160px;    
+    border: 20px solid #50E3C2;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.free{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    width: 209px;
+    height: 48px;
+    text-shadow:  0em -0.3em  rgba(0,0,0,0.30),
+        0 -0.4em  rgba(0,0,0,0.10);
+    font-weight: 900;
+    position: absolute;
+    bottom: -160px;
+}
+
+.left2{
+    position: relative;
+}
+.threebox{
+    width: 200px;
+    height: 160px;
+    background: #50E3C2;
+    border: 20px solid #50E3C2;
+    position: absolute;
+    top: 500px;
+}
+.photo3{
+    height: 200px;
+    width: 480px;
+    position: absolute;
+    top: 540px;
+}
+.photo3 .super{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    font-weight: 900;
+    text-shadow:  0em -0.3em  rgba(0,0,0,0.30),
+    0 -0.4em  rgba(0,0,0,0.10);
+    position: absolute;
+    top: -50px;
+    left: 120px;
+
+}
+.photo3 img{
+    width: 100%;
+    height: 100%;
+}
+.photo3 p{
+    transform: rotate(-360deg);
+    font-family: Roboto-BoldItalic;
+    font-size: 24px;
+    color: #000000;
+    position: absolute;
+    left: 50px;
+}
+.threebox2{
+    width: 200px;
+    height: 160px;
+    z-index: -1;
+    border: 20px solid #50E3C2;
+    position: absolute;
+    top: 590px;
+    left: 300px;
+}
+.three{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    width: 56px;
+    height: 48px;
+    font-weight: 900;
+    position: absolute;
+    top: 740px;
+    left: 480px;
+}
+
+
+.right2{
+    float: right;
+    position: relative;       
+    top: 500px;
+}
+.fourbox{
+    border: 20px solid #50E3C2;
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    left: -60px;
+}
+.fourbox .cadual{
+    transform: rotate(-270deg);
+    font-family: Roboto-BoldItalic;
+    font-size: 24px;
+    color: #000000;
+    text-align: right;
+    font-weight: 900;
+    position: absolute;
+    top: -50px;
+    right: -90px;
+    font-style: italic;
+    z-index: 1;
+}
+.fourbox .denim{
+    transform: rotate(270deg);
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    position: absolute;
+    font-weight: 900;
+    top: 100px;
+    left: -70px;
+    z-index: 1;
+    text-shadow:  0em -0.3em  rgba(0,0,0,0.30),
+    0 -0.5em  rgba(0,0,0,0.10);
+}
+.photo4{
+    width: 240px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    
+}
+.photo4 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.four{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    width: 56px;
+    height: 48px;
+    position: absolute;
+    top: 400px;
+    left: -50px;
+    font-weight: 900;
+}
+.fourbox2{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    top: 400px;
+    left:  0px;
+}
+.fourbox3{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    top: 400px;
+    left:  100px;
+}
+
+.left3{
+    position: relative;
+    float: left;
+    top: 900px;
+    left: -200px;    
+}
+.fivebox{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    left: -60px;
+    
+}
+.fivebox2{
+    width: 127px;
+    height: 100px;
+    background-image: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+    position: absolute;
+    left: -160px;
+}
+.photo5{
+    width: 240px;
+    height: 200px;
+    position: absolute;
+    top: 47px;
+    z-index: -1;
+    left: 7px;
+    
+}
+.photo5 p{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    position: absolute;
+    top: 50px;
+    left: -240px;
+    font-weight: 900;
+    text-shadow:  0em -0.3em  rgba(0,0,0,0.30),
+    0 -0.5em  rgba(0,0,0,0.10);
+    z-index: 2;
+
+}
+.photo5 img{
+    width: 100%;
+    height: 100%;
+}
+.fivebox3{
+    width: 200px;
+    height: 60px;
+    border: 20px solid #50E3C2;
+    position: absolute;
+    top: 200px;
+    left: -100px;
+    z-index: -3;
+}
+.five{
+    width: 56px;
+    height: 48px;
+    transform: rotate(-360deg);
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    font-weight: 900;
+}
+
+
+.right3{
+    position: relative;
+    float: right;    
+    top: 1100px;
+    left: -240px;
+}
+.photo6{
+    width: 480px;
+    height: 400px;
+    position: absolute;
+}
+.photo6 p{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    font-weight: 900;
+    text-shadow:  0em -0.3em  rgba(0,0,0,0.30),
+    0 -0.5em  rgba(0,0,0,0.10);
+    text-align: right;
+    
+}
+.photo6 img{
+    width: 100%;
+    height: 100%;
+}
+.sixbox{
+    width: 240px;
+    height: 200px;
+    background: #50E3C2;
+    position: absolute;
+    z-index: -1;
+    top: 250px;
+    left: -50px;
+}
+.sixbox p{    
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+    width: 56px;
+    height: 48px;
+    position: absolute;
+    top: -50px;
+    font-weight: 900;    
+}
+.sixbox2{
+    width: 440px;
+    height: 160px;
+    border: 20px solid #50E3C2;
+    position: absolute;
+    top: 300px;
+    z-index: -2;
+    
+}
+.sixbox2 p{
+    font-family: Roboto-BoldItalic;
+    font-size: 24px;
+    color: #000000;    
+    font-style: italic;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    font-weight: 900;
+    
+}
+
+
+.left4{
+    float: left;
+    position: relative;
+    top: 1500px;
+    left: -430px;    
+}
+.photo7{
+    width: 240px;
+    height: 400px;
+    position: absolute;
+}
+.photo7 p{
+    font-family: Roboto-BoldItalic;
+    font-size: 24px;
+    color: #000000;    
+    font-weight: 900;
+    font-style: italic;
+}
+.photo7 img{
+    width: 100%;
+    height: 100%;
+}
+.sevenbox{
+    width: 200px;
+    height: 360px;    
+    border: 20px solid #50E3C2;
+    position: absolute;
+    left: 60px;
+    top: -20px;
+    z-index: -1;
+}
+.sevenbox p{
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    line-height: 48px;
+    width: 48px;
+    height: 184px;
+    transform: rotate(90deg);
+    position: absolute;
+    font-weight: 900;
+    left: 90px;
+    top: -50px;
+    text-shadow:  0em -0.3em  rgba(0,0,0,0.30),
+    0 -0.5em  rgba(0,0,0,0.10);
+}
+.sevenbox2{
+    width: 240px;
+    height: 200px;
+    background: #50E3C2;
+    position: absolute;
+    top: 225px;
+    z-index: -1;
+    left: 120px;
+}
+.sevenbox2 p{
+    width: 56px;
+    height: 48px;
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 48px;  
+    position: absolute;
+    left: 180px;
+    top: 150px;
+    font-weight: 900;
+}
